@@ -1,11 +1,13 @@
-import React from 'react'
+import Main from '../Main/Main';
+import Sidebar from '../Sidebar/Sidebar';
 
-function App() {
-    return (
-        <div>
-            app
-        </div>
-    )
-}
+const App = () => {
+  return (
+    <>
+      <Sidebar />
+      <Main />
+    </>
+  );
+};
 
-export default App
+export default App;
